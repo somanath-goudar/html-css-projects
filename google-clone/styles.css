@@ -12,14 +12,15 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 20px 30px;
+  padding: 10px 30px;
   align-items: center;
+  background-color: rgb(66, 66, 66);
 }
 
 .header a {
   margin-right: 20px;
   text-decoration: inherit;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(250, 248, 248, 0.87);
   font-size: 15px;
 }
 
@@ -29,9 +30,15 @@ body {
 
 .header__right {
   display: flex;
-  align-items: center;
+  align-items: right;
   min-width: 13vw;
   justify-content: space-between;
+  margin-left: 83%;
+  padding-top: 20px;
+}
+
+.material-icons {
+ padding-right: 14px;
 }
 
 .header__right .header__apps {
