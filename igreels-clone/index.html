@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram Reels Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="app__videos">
+      <div class="video">
+        <!-- header starts -->
+        <div class="videoHeader">
+          <span class="material-icons"> arrow_back </span>
+          <h3>Reels</h3>
+          <span class="material-icons"> camera_alt </span>
+        </div>
+        <!-- header ends -->
+
+        <video class="video__player" src="video1.mp4"></video>
+
+        <!-- footer starts -->
+        <div class="videoFooter">
+          <div class="videoFooter__text">
+            <img class="user__avatar" src="https://www.w3schools.com/howto/img_avatar.png" alt="" />
+            <h3>Somanath Goudar • <button>Follow</button></h3>
+          </div>
+
+          <div class="videoFooter__ticker">
+            <span class="material-icons"> music_note </span>
+            <marquee>Song Name</marquee>
+          </div>
+
+          <div class="videoFooter__actions">
+            <div class="videoFooter__actionsLeft">
+              <span class="material-icons"> favorite </span>
+              <span class="material-icons"> mode_comment </span>
+              <span class="material-icons"> send </span>
+              <span class="material-icons"> more_horiz </span>
+            </div>
+            <div class="videoFooter__actionsRight">
+              <div class="videoFooter__stat">
+                <span class="material-icons"> favorite </span>
+                <p>12</p>
+              </div>
+              <div class="videoFooter__stat">
+                <span class="material-icons"> mode_comment </span>
+                <p>20</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- footer ends -->
+      </div>
+
+      <div class="video">
+        <!-- header starts -->
+        <div class="videoHeader">
+          <span class="material-icons"> arrow_back </span>
+          <h3>Reels</h3>
+          <span class="material-icons"> camera_alt </span>
+        </div>
+        <!-- header ends -->
+
+        <video class="video__player" src="video2.mp4"></video>
+
+        <!-- footer starts -->
+        <div class="videoFooter">
+          <div class="videoFooter__text">
+            <img class="user__avatar" src="https://www.w3schools.com/howto/img_avatar.png" alt="" />
+            <h3>Somanath Goudar • <button>Follow</button></h3>
+          </div>
+
+          <div class="videoFooter__ticker">
+            <span class="material-icons"> music_note </span>
+            <marquee>Song Name</marquee>
+          </div>
+
+          <div class="videoFooter__actions">
+            <div class="videoFooter__actionsLeft">
+              <span class="material-icons"> favorite </span>
+              <span class="material-icons"> mode_comment </span>
+              <span class="material-icons"> send </span>
+              <span class="material-icons"> more_horiz </span>
+            </div>
+            <div class="videoFooter__actionsRight">
+              <div class="videoFooter__stat">
+                <span class="material-icons"> favorite </span>
+                <p>12</p>
+              </div>
+              <div class="videoFooter__stat">
+                <span class="material-icons"> mode_comment </span>
+                <p>20</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- footer ends -->
+      </div>
+    </div>
+
+    <script>
+      const videos = document.querySelectorAll('video');
+
+      for (const video of videos) {
+        video.addEventListener('click', function () {
+          if (video.paused) {
+            video.play();
+          } else {
+            video.pause();
+          }
+        });
+      }
+    </script>
+  </body>
+</html>
