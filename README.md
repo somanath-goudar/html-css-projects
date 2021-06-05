@@ -2,6 +2,7 @@
 
 Best Viewd in Desktop
 
+#### Twitter Clone - <a href="https://somanath-goudar.github.io/html-css-projects/twitter-clone/">Demo</a>
 #### Netflix Clone - <a href="https://somanath-goudar.github.io/html-css-projects/netflix-clone/">Demo</a>
 #### Facebook Clone - <a href="https://somanath-goudar.github.io/html-css-projects/facebook-clone/">Demo</a>
 #### GMAIL Clone - <a href="https://somanath-goudar.github.io/html-css-projects/gmail-clone/">Demo</a>
