@@ -31,7 +31,7 @@ body {
 
 .header__left img {
   width: 100px;
-  margin-left: 15px;
+  margin-left: 0.5rem; /* Changed */
 }
 
 .header i {
@@ -117,13 +117,14 @@ hr {
   background-color: #f9f9f9;
   width: 100%;
   height: 100%;
-  padding: 15px 25px;
+  padding: 15px 15px;
   border-top: 1px solid #ddd;
   overflow-y: scroll;
 }
 
 .videos__container {
   display: flex;
+
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -131,7 +132,8 @@ hr {
 
 .video {
   width: 310px;
-  margin-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
   margin-bottom: 30px;
 }
 
@@ -182,4 +184,45 @@ h1 {
   font-size: 20px;
   margin-bottom: 10px;
   color: rgb(3, 3, 3);
+}
+
+@media (max-width: 425px) {
+  .header__search {
+    display: none;
+  }
+
+  .header__icons .material-icons {
+    display: none;
+  }
+
+  .header__icons .display-this {
+    display: inline;
+  }
+
+  .sidebar {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__search {
+    display: none;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .show-sidebar {
+    display: inline;
+    position: fixed;
+    top: 4.4rem;
+    height: auto;
+  }
+}
+
+@media (max-width: 941px) {
+  .header__search input {
+    width: 300px;
+  }
 }
