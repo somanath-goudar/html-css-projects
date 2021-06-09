@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to right, #051427, #042727);
+}
+
+/* header */
+.header {
+  color: white;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+  overflow-x: scroll;
+}
+
+.header::-webkit-scrollbar {
+  display: none;
+}
+
+.header {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.header > img {
+  object-fit: contain;
+  height: 80px;
+}
+
+.header__icons {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.header__icon {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  cursor: pointer;
+}
+
+.header__icon p {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: small;
+  display: none;
+}
+
+.header__icon:hover p {
+  display: inline-flex;
+}
+
+.header__icon .material-icons {
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.active > p {
+  display: inline-flex;
+}
+
+/* nav */
+.nav {
+  display: flex;
+  color: white;
+  overflow-x: scroll;
+  padding: 10px;
+  padding-left: 40px;
+}
+
+.nav::-webkit-scrollbar {
+  display: none;
+}
+
+.nav {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.nav h2 {
+  cursor: pointer;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: 500;
+  opacity: 0.7;
+  transition: transform 50ms ease-out;
+}
+
+.nav h2:hover {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+/* movies */
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.movie {
+  color: white;
+  width: 500px;
+  height: 400px;
+  padding: 20px;
+  transition: transform 100ms;
+}
+
+.movie img {
+  height: 300px;
+  object-fit: contain;
+  width: 460px;
+}
+
+.movie:hover {
+  transform: scale(1.09);
+}
+
+.movie h2 {
+  padding-top: 10px;
+}
