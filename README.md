@@ -2,6 +2,7 @@
 
 Best Viewd in Desktop
 
+#### Hulu Clone - <a href="https://somanath-goudar.github.io/html-css-projects/hulu-clone/">Demo</a> | <a href="https://youtu.be/azNYuhSFHfU">Watch Tutorial</a>
 #### Twitter Clone - <a href="https://somanath-goudar.github.io/html-css-projects/twitter-clone/">Demo</a> | <a href="https://youtu.be/TSsPAOmTFsM">Watch Tutorial</a>
 #### Netflix Clone - <a href="https://somanath-goudar.github.io/html-css-projects/netflix-clone/">Demo</a> | <a href="https://youtu.be/9nywQdjKnJI">Watch Tutorial</a>
 #### Facebook Clone - <a href="https://somanath-goudar.github.io/html-css-projects/facebook-clone/">Demo</a> | <a href="https://youtu.be/-pUVDYFVFpw">Watch Tutorial</a>
