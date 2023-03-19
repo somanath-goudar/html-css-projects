@@ -25,6 +25,7 @@ body {
 
 .row__poster:hover {
   transform: scale(1.08);
+  cursor: pointer;
 }
 
 .row__posters::-webkit-scrollbar {
