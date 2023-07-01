@@ -16,7 +16,7 @@
     <div class="header">
       <div class="header__left">
         <i id="menu" class="material-icons">menu</i>
-        <img
+        <img id="yt-btn"
           src="https://cdn.mos.cms.futurecdn.net/8gzcr6RpGStvZFA2qRt4v6.jpg"
           alt=""
         />
@@ -30,9 +30,9 @@
       </div>
 
       <div class="header__icons">
-        <i class="material-icons display-this">search</i>
+        <i id="srch-icon" class="material-icons">search</i>
+        <i class="material-icons display-this">mic</i>
         <i class="material-icons">videocam</i>
-        <i class="material-icons">apps</i>
         <i class="material-icons">notifications</i>
         <i class="material-icons display-this">account_circle</i>
       </div>
@@ -87,8 +87,15 @@
 
       <!-- Videos Section -->
       <div class="videos">
-        <h1>Recommended</h1>
-
+        <!--recommendation section-->
+        <div class="categories">
+          <ul id="default-pg" class="Recommended-categories">All</ul>
+          <ul class="Recommended-categories">Music</ul>
+          <ul class="Recommended-categories">Mixes</ul>
+          <ul class="Recommended-categories">Programming</ul>
+          <ul class="Recommended-categories">Gaming</ul>
+          <ul class="Recommended-categories">New to You</ul>
+        </div>
         <div class="videos__container">
           <!-- Single Video starts -->
           <div class="video">
