@@ -1,0 +1,334 @@
+* {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    background-color: #f0f2f5;
+    box-sizing: border-box;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fb_logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    width: 60%;
+}
+
+.fb_logo img {
+    color: rgb(10, 151, 252);
+    width: 100%;
+}
+
+.main_div {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 112px;
+    align-items: center;
+    justify-content: center;
+    /* padding: 0px 8rem; */
+    /* padding-left: 7rem; */
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 85px;
+    justify-content: center;
+    padding-bottom: 4rem;
+}
+
+.text {
+    display: flex;
+    width: 521px;
+    flex-direction: column;
+}
+
+.text p {
+    font-size: 1.5rem;
+    padding: 0px 1rem;
+    font-weight: 600;
+}
+
+.form {
+    width: 396px;
+    right: 0;
+    padding: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 2%;
+    margin: 0 1rem;
+    overflow: hidden;
+}
+
+.form hr {
+    margin: 22px 20px;
+}
+
+button,
+input,
+label,
+select,
+td,
+textarea {
+    font-family: Helvetica, Arial, sans-serif;
+    height: 3rem;
+    margin: 7px 16px;
+    padding: 4px 8px;
+    font-size: 1.3rem;
+    color: #737373;
+    border: 1px solid #737373;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    margin: 14px;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn_green {
+    background-color: #36a420;
+    border-color: #36a420;
+    width: fit-content;
+    padding: 0 12px;
+}
+
+/* footer  */
+footer {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    bottom: 0;
+    height: fit-content;
+    padding: 2rem 0px;
+    flex-direction: column;
+    background-color: white;
+    color: #737373;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+hr {
+    display: flex;
+}
+
+.language {
+    display: flex;
+    width: 100%;
+    margin-right: 215px;
+    width: 800px;
+    /* background-color: red; */
+    justify-content: center;
+}
+
+.language ul {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0%;
+    height: fit-content;
+    width: 100%;
+}
+
+.language li {
+    height: fit-content;
+}
+
+footer li {
+    display: inline;
+    vertical-align: top;
+    padding-left: 20px;
+    color: #737373;
+}
+
+.bottom_li {
+    display: flex;
+    height: 100%;
+    width: 1000px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 92px;
+    /* background-color: #36a420; */
+}
+
+.bottom_li ul {
+    height: 80%;
+    width: 900px;
+}
+
+.bottom_li li {
+    /* padding-left: 20px; */
+    padding: 12px 12px;
+    height: fit-content;
+    display: inline;
+}
+
+.button ol {
+    background-color: green;
+}
+
+.button ol li {
+    color: rgb(187, 205, 187);
+    width: 100%;
+    margin: 0 15px;
+    height: 25px;
+}
+
+.button {
+    background-color: rgb(68, 16, 190);
+    display: flex;
+    width: 50%;
+}
+
+/* @media screen and (max-width:1246px) {
+    .main_div {
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 112px;
+        align-items: center;
+        padding: 0px 5%;
+    }
+} */
+@media screen and (max-width: 1000px) {
+    .flex {
+        flex-direction: column;
+    }
+
+    .main_div {
+        margin-top: 0px;
+    }
+
+    .info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-bottom: 15%; */
+        /* background-color: #36a420; */
+        padding-bottom: 0px;
+    }
+
+    .fb_logo {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .fb_logo img {
+        align-items: center;
+        width: 55%;
+    }
+
+    .text {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .text p {
+        font-size: 1.5rem;
+        padding: 0px 1rem;
+        font-weight: 600;
+        /* background-color: red; */
+    }
+
+    .form {
+        width: 370px;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 2%;
+    }
+
+    button,
+    input,
+    label,
+    select,
+    td,
+    textarea {
+        font-family: Helvetica, Arial, sans-serif;
+        height: 3rem;
+        margin: 7px 6px;
+        padding: 4px 8px;
+        font-size: 1.3rem;
+        color: #737373;
+        border: 1px solid #737373;
+        border-radius: 5px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 8%;
+    }
+
+    footer {
+        position: relative;
+    }
+
+    .bottom_li {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        /* background-color: #36a420; */
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        /* margin-right: 12px; */
+        font-size: medium;
+    }
+
+    .bottom_li ul {
+        width: 100%;
+        margin-left: 65px;
+    }
+
+    .bottom_li li {
+        /* padding-left: 20px; */
+        padding: 8px 8px;
+        height: fit-content;
+        display: inline;
+    }
+
+    .language {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        /* background-color: aqua; */
+        font-size: medium;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 0 0;
+        /* background-color: #36a420; */
+    }
+
+    .language ul {
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        /* background-color: red; */
+        padding: 0 12px;
+    }
+
+    .language li {
+        padding: 0 8px;
+        /* background-color: red; */
+    }
+}
