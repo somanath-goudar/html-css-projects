@@ -1,7 +1,15 @@
+@font-face {
+  font-family: gilroy;
+  src: url(Gilroy-Light.otf);
+}
+
 * {
   margin: 0;
-  box-sizing: border-box;
+  box-sizing: border-box; 
+  font-family: gilroy;
 }
+
+
 
 .header__left img {
   height: 40px;
